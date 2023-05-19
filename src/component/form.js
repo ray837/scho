@@ -16,7 +16,7 @@ return (c=='x' ? r :(r&0x3|0x8)).toString(16);
 
 });
 setref(uuid);
-let data= "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266%26"+"<dno>%26"+uuid
+let data= "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266%26"+"1%26"+uuid
 console.log(data)
 const link="https://chart.googleapis.com/chart?cht=qr&chl="+data+"&chs=200x200&chld=L|0";
 const image = document.getElementById("myimg");
@@ -40,7 +40,7 @@ let timerId = setInterval(function() {
 setTimeout(() => { clearInterval(timerId); }, 78000);
     },[]);
 
-   
+   console.log("this"+ref)
   
    // 20 seconds
     return(<>
@@ -49,7 +49,7 @@ setTimeout(() => { clearInterval(timerId); }, 78000);
       
      
   
-      <form id="my-form" action={`/sub/${uid}`} method="POST">
+      <form id="my-form" action={`/sub/${ref}`} >
         <div class="formbold-form-title">
           <h2 class="">Register now</h2>
           <p>
