@@ -37,7 +37,7 @@ let timerId = setInterval(function() {
       })
       .catch(error => console.error(error));
 }, 12000);
-setTimeout(() => { clearInterval(timerId); }, 78000);
+setTimeout(() => { clearInterval(timerId); }, 148000);
     },[]);
 
    console.log("this"+ref)
