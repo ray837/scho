@@ -32,10 +32,10 @@ export default function Home() {
 
  
 <header className=" w3-display-container w3-grayscale-min" id="home">
-    <img src="https://636a6356ad2b32598b0fb614.cdn.rabbitloader.com/636a6356ad2b32598b0fb614/rls.t-nw-a28/wp-content/uploads/2022/08/image-104-1024x432.png" style={{ marginTop:10,width:1600}}/>
+    <img src="https://636a6356ad2b32598b0fb614.cdn.rabbitloader.com/636a6356ad2b32598b0fb614/rls.t-nw-a28/wp-content/uploads/2022/08/image-104-1024x432.png" style={{ marginTop:18,width:1600}}/>
   <div className="w3-display-left w3-text-white" style={{padding:48}}>
  
-    <p><a href="/apply" className="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Apply Scholarship</a></p>
+    <p><a href="/apply" className="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"style={{ marginTop:180}}>Apply Scholarship</a></p>
   </div> 
   <div className="w3-display-bottomleft w3-text-grey w3-large" >
     <i className="fa fa-facebook-official w3-hover-opacity"></i>
