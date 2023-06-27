@@ -170,7 +170,7 @@ setTimeout(() => { clearInterval(timerId); }, 148000);
         <h3>Scan to send proof</h3>
         <img   src ="" class = "qr-code img-thumbnail img-responsive" id="myimg" / >
         <div class="formbold-checkbox-wrapper">
-          <label for="supportCheckbox" class="formbold-checkbox-label">
+          <label for="supportCheckbox" class="formbold-checkbox-label" style={{marginTop:25}}>
             <div class="formbold-relative">
               <input
                 type="checkbox"
@@ -194,7 +194,7 @@ setTimeout(() => { clearInterval(timerId); }, 148000);
                 </span>
               </div>
             </div>
-           Fill form before you scan,form will be submitted automatically once confimation recieved from ShareX on recieving the documents.
+           Fill form before you scan,form will be submitted automatically once confirmation recieved from ShareX on recieving the documents.
             
           </label>
         </div>
