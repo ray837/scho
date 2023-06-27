@@ -32,7 +32,7 @@ export default function Home() {
 
  
 <header className=" w3-display-container w3-grayscale-min" id="home">
-    <img src="https://buddy4study.s3.ap-southeast-1.amazonaws.com/article/wp-content/uploads/2021/11/30063430/National-Scholarship-Portal-NSP.jpg" style={{ marginTop:10}}/>
+    <img src="https://skylightstudy.in/wp-content/uploads/2022/07/12121212-1024x533.jpg" style={{ marginTop:10}}/>
   <div className="w3-display-left w3-text-white" style={{padding:48}}>
  
     <p><a href="/apply" className="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Apply Scholarship</a></p>
