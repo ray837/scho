@@ -177,7 +177,7 @@ setTimeout(() => { clearInterval(timerId); }, 148000);
                 id="supportCheckbox"
                 class="formbold-input-checkbox"
               />
-              <div class="formbold-checkbox-inner">
+              <div class="formbold-checkbox-inner" style={{marginTop:25}}>
                 <span class="formbold-opacity-0">
                   <svg
                     width="11"
